@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@400;500&display=swap');
+
+@font-face {
+    font-family: IBMPlexSerif;
+    src: url(../fonts/transfonter.org-20220204-221055/IBMPlexSerif-Bold.woff2), format(woff2), url(../fonts/transfonter.org-20220204-221055/IBMPlexSerif-Bold.woff), format(woff);
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: IBMPlexSerif;
+    src: url(../fonts/transfonter.org-20220204-221055/IBMPlexSerif-Light.woff2), format(woff2), url(../fonts/transfonter.org-20220204-221055/IBMPlexSerif-Light.woff), format(woff);
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: IBMPlexSerif;
+    src: url(../fonts/transfonter.org-20220204-221055/IBMPlexSerif-Regular.woff2), format(woff2), url(../fonts/transfonter.org-20220204-221055/IBMPlexSerif-Regular.woff), format(woff);
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+body{
+    font-size: 25px;
+}
+h1{
+    font-family: Lobster, cursive;
+    font-size: 60px;
+    color: rgb(27, 97, 236);
+    text-align: center;
+    text-decoration: underline;
+}
+.main1, .main2{
+    font-family: IBMPlexSerif;
+    font-weight: 300;
+    color: rgb(236, 49, 87);
+    text-align: center;
+    text-transform: capitalize;
+}
+.text1, .text3, .text5, .text7, .text9{
+    font-family: IBMPlexSerif;
+    color: rgb(173, 123, 219);
+    font-weight: 700;
+    text-align: left;
+}
+.text2, .text4, .text6, .text8{
+    font-family: Rajdhani, sans-serif;
+    font-weight: 500;
+    color: rgb(88, 236, 241);
+    text-align: right;
+}
+.text3{
+    text-shadow: 3px -2px 10px rgb(108, 33, 110);
+}
+
+.text2, .text4{
+    text-transform: uppercase;
+}
+.img{
+    text-align: center;
+}
